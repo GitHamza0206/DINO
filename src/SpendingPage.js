@@ -32,3 +32,5 @@ function SpendingPage({ onBack }) {
     
     
 }
+
+export default SpendingPage;

@@ -5,11 +5,11 @@ function ChoicesPage({ onChoiceSelection }) {
   
     return (
       <div>
-        <h2>Which option do you prefer?</h2>
-        <button onClick={() => handleChoiceClick('Option 1')}>Option 1</button>
-        <button onClick={() => handleChoiceClick('Option 2')}>Option 2</button>
-        <button onClick={() => handleChoiceClick('Option 3')}>Option 3</button>
+        <h2>What will you accompany your wine with ?</h2>
+        <button onClick={() => handleChoiceClick('Option ')}>Red Meat</button><br/>
+        <button onClick={() => handleChoiceClick('Option 2')}>Fish</button><br/>
+        <button onClick={() => handleChoiceClick('Option 3')}>Cheese</button>
       </div>
     );
   }
-  
+export default ChoicesPage;  
